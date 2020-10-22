@@ -20,13 +20,13 @@ puts "#{intentos}"
 
 #Opción 2
 =begin
-#pass = ARGV[0]
-#palabra = 'a'
-#intentos = 0
-#loop do
-#palabra = palabra.next
-#intentos+=1
-#break if palabra == pass
-#end
-#puts "#{intentos}"
+pass = ARGV[0]
+palabra = 'a'
+intentos = 0
+loop do
+palabra = palabra.next
+intentos+=1
+break if palabra == pass
+end
+puts "#{intentos}"
 =end

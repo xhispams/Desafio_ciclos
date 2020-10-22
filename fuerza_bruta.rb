@@ -1,14 +1,12 @@
 #@Author = Álvaro Moya Santana
-
 =begin
- En el siguiente código, reemplazar la instrucción while por times dentro del programa llamado iterador.rb
-    i=0
-while i < 50
-  puts "Iteración #{i}"
-i=i+1 
-end
+Se busca crear un programa fuerza_bruta.rb que revise cuantos intentos requiere hackear un password por fuerza bruta.
+Uso:
+ ruby fuerza_bruta.rb pass
+282404 intentos
+ruby fuerza_bruta.rb passwo
+190906392 intentos
 =end
-
 #Opción 1
 pass = ARGV[0]
 palabra = 'a'
